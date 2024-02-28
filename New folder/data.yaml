@@ -1,7 +1,20 @@
-train:C:\Users\Siddesh Pawar\Desktop\ML Projects\Object Detection\End-to-End-Waste-Detection-using-yolo-v5\New folder\train\images
-valid:C:\Users\Siddesh Pawar\Desktop\ML Projects\Object Detection\End-to-End-Waste-Detection-using-yolo-v5\New folder\valid\images 
-
+train: 
+  - C:\Users\Siddesh Pawar\Desktop\ML Projects\Object Detection\End-to-End-Waste-Detection-using-yolo-v5\New folder\train\images
+val: 
+  - C:\Users\Siddesh Pawar\Desktop\ML Projects\Object Detection\End-to-End-Waste-Detection-using-yolo-v5\New folder\valid\images
 
 nc: 13
-names: ['banana', 'chilli', 'drinkcan', 'drinkpack', 'foodcan', 'lettuce', 'paperbag', 'plasticbag', 'plasticbottle', 'plasticcontainer', 'sweetpotato', 'teabag', 'tissueroll']
-
+names: 
+  - banana
+  - chilli
+  - drinkcan
+  - drinkpack
+  - foodcan
+  - lettuce
+  - paperbag
+  - plasticbag
+  - plasticbottle
+  - plasticcontainer
+  - sweetpotato
+  - teabag
+  - tissueroll
